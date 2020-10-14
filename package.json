@@ -1,0 +1,9 @@
+{
+  "name": "ahj_env",
+  "version": "1.0.0",
+  "description": "AHJ-Homeworks",
+  "main": "index.js",
+  "repository": "https://github.com/Vadim2107/AHJ_env",
+  "author": "Vadim Zinoviev",
+  "license": "MIT"  
+}
