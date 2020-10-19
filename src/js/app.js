@@ -1,2 +1,3 @@
-/* eslint-disable no-console */
+import '../css/style.css';
+
 console.log('it works!');
