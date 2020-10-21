@@ -11,7 +11,7 @@
     "start": "webpack-dev-server --mode development",
     "build": "webpack",
     "lint": "eslint .",
-    "test": "jest --coverage",
+    "test": "jest --passWithNoTests",
     "coverage": "jest --coverage",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
