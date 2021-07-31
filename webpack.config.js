@@ -45,6 +45,10 @@ module.exports = {
       //   ],
       // },
       {
+        test: /\.svg$/,
+        type: 'asset/resource',
+      },
+      {
         test: /\.(png|jpg|gif|webp)$/,
         use: {
           loader: 'url-loader',
