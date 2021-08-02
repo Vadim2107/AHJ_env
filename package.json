@@ -8,8 +8,8 @@
     "url": "https://github.com/Vadim2107/AHJ_env"
   },
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack",
     "lint": "eslint .",
     "test": "jest --passWithNoTests",
     "coverage": "jest --coverage",
