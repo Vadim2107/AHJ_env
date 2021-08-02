@@ -7,9 +7,6 @@ module.exports = {
   stats: {
     children: true,
   },
-  // output: {
-  //   path: path.resolve(__dirname, 'dist'),
-  // },
   output: {
     filename: 'app.bundle.js',
   },
@@ -36,14 +33,6 @@ module.exports = {
           MiniCssExtractPlugin.loader, 'css-loader',
         ],
       },
-      // {
-      //   test: /\.(png|jpe?g|gif)$/i,
-      //   use: [
-      //     {
-      //       loader: 'file-loader',
-      //     },
-      //   ],
-      // },
       {
         test: /\.svg$/,
         type: 'asset/resource',
