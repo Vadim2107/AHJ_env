@@ -44,12 +44,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "core-js": "3",
-    "html-webpack-plugin": "^4.5.0",
-    "mini-css-extract-plugin": "^1.0.0",
-    "optimize-css-assets-webpack-plugin": "^6.0.1",
-    "terser-webpack-plugin": "^5.1.4",
-    "webpack": "^5.1.0",
-    "webpack-merge": "^5.8.0"
+    "core-js": "3"    
   }
 }
